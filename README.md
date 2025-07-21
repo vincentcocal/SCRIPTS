@@ -29,13 +29,18 @@ Right-click on your Desktop
 
 In the location box, paste:
 
-**`powershell.exe -ExecutionPolicy Bypass -File "C:\Scripts\FILENAME.ps1"`**
+>
+>  ```powershell
+> powershell.exe -ExecutionPolicy Bypass -File "C:\Scripts\FILENAME.ps1"`**
+> ```
 
 Click Next, name it the name of your choice, then click 'Finish'
 
-## 🚀 Usage
+## 🚀 Usage and How to Download
+- Click the Green Code icon that you see near the top of your screen
+- Then click Download ZIP
 
-> **Note:** You may need to enable script execution on your system. Open PowerShell as Administrator and run:
+>**Note:** You may need to enable script execution on your system. Open PowerShell as Administrator and run:
 > ```powershell
 > Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 > ```
