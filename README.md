@@ -35,6 +35,10 @@ In the location box, paste:
 > ```
 
 Click Next, name it the name of your choice, then click 'Finish'
+Right click on the file
+Select **Properties**
+Click **Advanced** and Check **Run as Administrator**
+Click **OK** and **Apply**
 
 ## 🚀 Usage and How to Download
 - Click the **Green Code icon** that you see near the top of your screen
