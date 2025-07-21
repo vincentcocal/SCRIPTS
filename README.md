@@ -37,8 +37,8 @@ In the location box, paste:
 Click Next, name it the name of your choice, then click 'Finish'
 
 ## 🚀 Usage and How to Download
-- Click the Green Code icon that you see near the top of your screen
-- Then click Download ZIP
+- Click the **Green Code icon** that you see near the top of your screen
+- Then click **Download ZIP**
 
 >**Note:** You may need to enable script execution on your system. Open PowerShell as Administrator and run:
 > ```powershell
