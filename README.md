@@ -23,8 +23,8 @@ This repository contains helpful PowerShell scripts for PC maintenance, optimiza
 ## 🖱 How to Add These Scripts as Desktop Shortcuts
 Make it easy to run any script with a double-click!
 
-📌 Example: Create a Shortcut for better-restart.ps1
-Right-click on your Desktop
+📌 Example: Create a Shortcut for your files
+→ Right-click on your Desktop
 → Choose New > Shortcut
 
 In the location box, paste:
