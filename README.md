@@ -31,7 +31,7 @@ In the location box, paste:
 
 >
 >  ```powershell
-> powershell.exe -ExecutionPolicy Bypass -File "C:\Scripts\FILENAME.ps1"`**
+> powershell.exe -ExecutionPolicy Bypass -File "C:\Scripts\FILENAME.ps1"`
 > ```
 
 Click Next, name it the name of your choice, then click 'Finish'
