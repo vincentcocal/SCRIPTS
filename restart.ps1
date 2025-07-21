@@ -90,6 +90,7 @@ try {
 }
 
 # 2. Clear Browser Cache and Cookies
+# YOU CAN ADD MORE BROWSERS HERE
 Write-Host "`n2. Clearing browser data..." -ForegroundColor Cyan
 
 # Brave Browser
@@ -375,7 +376,8 @@ try {
     if ($os -and $cpu -and $memory) {
         $freeMemoryGB = [math]::Round($os.FreePhysicalMemory / 1MB, 2)
         $totalMemoryGB = [math]::Round($memory.Sum / 1GB, 2)
-        
+
+        #YOU CAN ADD MORE SYSTEM INFO HERE
         Write-Host "`nSystem Status:" -ForegroundColor Yellow
         Write-Host "Total RAM: $totalMemoryGB GB" -ForegroundColor White
         Write-Host "Free RAM: $freeMemoryGB GB" -ForegroundColor Green
@@ -385,5 +387,11 @@ try {
 }
 
 Write-Host "AUTOMATED SYSTEM CLEANUP COMPLETE!" -ForegroundColor Green
+
+#YOU CAN ALSO ADD A TIMER TO RESTART THE SYSTEM, JUST UNCOMMENT THE FOLLOWING LINES:
+
+#Write-Host "The system will restart in 5 seconds..." -ForegroundColor Yellow
+#Start-Sleep -Seconds 5
+
 
 Restart-Computer -Force
