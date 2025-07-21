@@ -34,11 +34,11 @@ In the location box, paste:
 > powershell.exe -ExecutionPolicy Bypass -File "C:\Scripts\FILENAME.ps1
 > ```
 
-Click Next, name it the name of your choice, then click 'Finish'
-Right click on the file
-Select **Properties**
-Click **Advanced** and Check **Run as Administrator**
-Click **OK** and **Apply**
+- Click Next, name it the name of your choice, then click **Finish**
+- Right click on the shortcut
+- Select **Properties**
+→ Click **Advanced** and Check **Run as Administrator**
+- Click **OK** then **Apply**
 
 ## 🚀 Usage and How to Download
 - Click the **Green Code icon** that you see near the top of your screen
