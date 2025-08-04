@@ -59,7 +59,6 @@ function Stop-ProcessSafely {
 }
 
 Write-Host "Starting Automated System Cleanup..." -ForegroundColor Green
-Write-Host "All prompts will be automatically answered with 'Yes'" -ForegroundColor Yellow
 Write-Host ""
 
 # 1. Clear Temporary Files
